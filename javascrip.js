@@ -6,12 +6,16 @@ let references = [
     src  : "http://i.imgur.com/P3zirTt.jpg"
   },
   { // 3 OCT -- MEAN GIRLS
-    cond : "moment().month() == 7 && moment().date() == 3", 
+    cond : "moment().month() == 9 && moment().date() == 3", 
     src  : "https://media.giphy.com/media/l9YGE1phK6Sk0/giphy.gif" 
   },
   { // 20 Thurs -- SIMPSONS 
     cond : "moment().day() == 4 && moment().date() == 20",
 	  src  : "http://i0.kym-cdn.com/entries/icons/original/000/022/767/7gC3Knz.jpg"
+  },
+  { // 06 MAR -- SPONGEBOB SQUAREPANTS
+	  cond : "moment().month == 2 && moment().date == 6",
+	  src : "https://i.redditmedia.com/XWw6eV8IxIvgO4XfIbq0_ZcUMMYmbfoDv0vHkNe50xE.png"
   },
 ];
 
